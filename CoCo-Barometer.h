@@ -30,6 +30,7 @@ class Barometer {
 
     public:
     Barometer(Adafruit_BMP085 &);
+    ~Barometer();
     void startBarometer();
     void gatherData();
     void printData();
