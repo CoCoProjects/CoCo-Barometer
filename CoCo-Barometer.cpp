@@ -19,6 +19,11 @@ Barometer::Barometer(Adafruit_BMP085 &Barometer_REF) : Barometer_REF(Barometer_R
     Serial.println("Barometer object created.");
 }
 
+Barometer::~Barometer() {
+    delete &Barometer_REF;
+    Serial.println("Barometer object destroyed.");
+}
+
 void Barometer::startBarometer() {
     while (!Barometer_REF.begin()) {
         Serial.println("Barometer initialization failed.");
