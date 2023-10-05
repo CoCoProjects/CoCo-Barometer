@@ -1,0 +1,27 @@
+{
+    "name": "CoCo-Barometer",
+    "version": "0.0.1",
+    "description": "Data processing for Barometer",
+    "keywords": "Barometer, deneyap, HKD",
+    "repository":
+    {
+      "type": "git",
+      "url": "*"
+    },
+    "authors":
+    [
+      {
+        "name": "Hakan Kayra Doğan",
+        "email": "me@hkayrad.me",
+        "url": "https://hkayrad.me/contact",
+              "maintainer": true
+      }
+    ],
+    "license": "MPL",
+    "homepage": "*",
+    "dependencies": {
+        "deneyap": "Deneyap_6EksenAtaletselOlcumBirimi.h"
+    },
+    "frameworks": "*",
+    "platforms": "*"
+  }
